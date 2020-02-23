@@ -4,4 +4,4 @@ Given I am an employer
 
 
 # Preview
-![](/Preview.webm)
+![](Preview.webm)
