@@ -80,7 +80,7 @@ function askQuestions(){
         inquirer.prompt(employeeQs).then(function(res){
             
             if(res.profession === "Manager"){
-                console.log(res);
+                //console.log(res);
                 inquirer.prompt(managerQs).then(function(phone){
                     employees.push({...res, ...phone}); 
                 }).then(function(){
@@ -123,20 +123,20 @@ function addEmployee(){
     employees.forEach(function(i){
         switch(i.profession){
             case "Manager":
-                employeeList.push(new Manager(i.name, i.id, i.email, i.profession, i.phone));
+                employeeList.push(new Manager(i.name, i.id, i.email, i.phone));
                 break;
             case "Engineer":
-                employeeList.push(new Engineer(i.name, i.id, i.email, i.profession, i.github));
+                employeeList.push(new Engineer(i.name, i.id, i.email, i.github));
                 break;
             case "Intern":
-                employeeList.push(new Intern(i.name, i.id, i.email, i.profession, i.school));
+                employeeList.push(new Intern(i.name, i.id, i.email, i.school));
                 break;
             default:
                 console.log("error at switch");
         }
     });
     const teamHTML = render(employeeList); 
-    console.log(employeeList)
+    //console.log(employeeList)
 
     fs.writeFile(`employeeList.html`, teamHTML,function(err){
         if (err) throw err;
