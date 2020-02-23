@@ -4,4 +4,4 @@ Given I am an employer
 
 
 # Preview
-![](/Preview.webm)
+![Tool preview](/application.gif?raw=true "Tool Preview") 
