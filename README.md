@@ -1,9 +1,21 @@
 # Template_Engine_Employee_Summary
 
-Given I am an employer
+As a manager
+I want to generate a webpage that displays my team's basic info
+so that I have quick access to emails and GitHub profiles
 
+## Packages
+Inquirer - for prompting user input 
+jest - for testing
 
-# Preview
+## Topics
+Objects,
+Callbacks,
+Constructors,
+Classes,
+Unit Test
+
+## Preview
 
 ![](/application.gif) 
 
