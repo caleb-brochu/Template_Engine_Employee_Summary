@@ -17,6 +17,6 @@ Unit Test
 
 ## Preview
 
-![](/application.gif) 
+![](application.gif) 
 
 
