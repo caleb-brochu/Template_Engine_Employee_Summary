@@ -24,6 +24,8 @@
     "inquirer": "^6.3.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
+    "install": "^0.13.0",
+    "jest": "^24.9.0",
+    "npm": "^6.13.7"
   }
 }
